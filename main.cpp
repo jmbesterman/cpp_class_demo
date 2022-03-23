@@ -9,6 +9,9 @@ using namespace std;
 
 int main(){
     cout << "Tweet Tweet, chirp" << endl;
+
+    Bird robin("Robin");
+    cout << robin.get_seeds() << endl;
     return 0;
 }
 
